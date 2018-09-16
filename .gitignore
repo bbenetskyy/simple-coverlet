@@ -1,0 +1,4 @@
+src/src.lib/bin/*
+src/src.lib/obj/*
+test/src.tests/bin/*
+test/src.tests/obj/*

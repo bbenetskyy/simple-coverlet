@@ -7,6 +7,7 @@
             "type": "process",
             "args": [
                 "test",
+                "/p:CollectCoverage=true",
                 "${workspaceFolder}/test/src.tests/src.tests.csproj"
             ],
             "problemMatcher": "$msCompile"

@@ -1,0 +1,49 @@
+{
+  "C:\\Work\\simple-coverlet\\test\\src.tests\\bin\\Debug\\netcoreapp2.1\\src.lib.dll": {
+    "C:\\Work\\simple-coverlet\\src\\src.lib\\Math.cs": {
+      "src.lib.Math": {
+        "System.Int32 src.lib.Math::Add(System.Int32,System.Int32)": {
+          "Lines": {
+            "7": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 src.lib.Math::Sub(System.Int32,System.Int32)": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": [
+            {
+              "Line": 8,
+              "Offset": 1,
+              "EndOffset": 3,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 8,
+              "Offset": 1,
+              "EndOffset": 8,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 src.lib.Math::Mul(System.Int32,System.Int32)": {
+          "Lines": {
+            "9": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 src.lib.Math::Div(System.Int32,System.Int32)": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

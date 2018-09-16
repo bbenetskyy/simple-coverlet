@@ -10,7 +10,7 @@
         },
         "System.Int32 src.lib.Math::Sub(System.Int32,System.Int32)": {
           "Lines": {
-            "8": 1
+            "8": 2
           },
           "Branches": [
             {
@@ -27,7 +27,7 @@
               "EndOffset": 8,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
+              "Hits": 1
             }
           ]
         },
@@ -39,7 +39,7 @@
         },
         "System.Int32 src.lib.Math::Div(System.Int32,System.Int32)": {
           "Lines": {
-            "10": 0
+            "10": 1
           },
           "Branches": []
         }

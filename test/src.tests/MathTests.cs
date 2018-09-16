@@ -17,12 +17,19 @@ namespace src.tests
         public void TestSub()
         {
             Math.Sub(5, 3).Should().Be(2);
+            Math.Sub(5, 0).Should().Be(0);
         }
 
         [Fact]
         public void TestMul()
         {
             Math.Mul(5, 5).Should().Be(25);
+        }
+
+        [Fact]
+        public void TestDiv()
+        {
+            Math.Div(5, 5).Should().Be(1);
         }
     }
 }
